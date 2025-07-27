@@ -1,0 +1,10 @@
+#pragma once
+#define I2C_DRIVER I2CD1
+// #define I2C_DRIVER I2CD1
+#define I2C1_SCL_PIN GP7
+#define I2C1_SDA_PIN GP6
+#define ENCODER_A_PINS { GP28 }
+#define ENCODER_B_PINS { GP27 }
+#define ENCODER_RESOLUTION 4
+#define ENCODER_MAP_KEY_DELAY 10
+#define LED_CAPS_LOCK_PIN GP25
